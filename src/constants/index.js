@@ -27,6 +27,7 @@ import {
   dcc,
   kelhel,
   microverse,
+  space,
 } from '../assets';
 
 export const navLinks = [
@@ -173,7 +174,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
+    image: space,
     repo: 'https://github.com/joyapisi/space-traveler-hub',
     demo: 'https://my-space-travellers-hub.netlify.app/',
   },
