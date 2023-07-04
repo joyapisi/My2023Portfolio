@@ -1,6 +1,6 @@
 import {
   frontend,
-  // backend,
+  backend,
   ux,
   // prototyping,
   javascript,
@@ -14,8 +14,8 @@ import {
   git,
   figma,
   // docker,
-  // postgresql,
-  // rubyrails,
+  postgresql,
+  rubyrails,
   // graphql,
   komikult,
   leaderboard,
@@ -50,10 +50,10 @@ const services = [
     title: 'Frontend Developer',
     icon: frontend,
   },
-  // {
-  //   title: 'Backend Developer',
-  //   icon: backend,
-  // },
+  {
+    title: 'Backend Developer',
+    icon: backend,
+  },
   {
     title: 'UI/UX Design',
     icon: ux,
@@ -97,18 +97,18 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  // {
-  //   name: 'Rails',
-  //   icon: rubyrails,
-  // },
+  {
+    name: 'Rails',
+    icon: rubyrails,
+  },
   // {
   //   name: 'graphql',
   //   icon: graphql,
   // },
-  // {
-  //   name: 'postgresql',
-  //   icon: postgresql,
-  // },
+  {
+    name: 'postgresql',
+    icon: postgresql,
+  },
   {
     name: 'git',
     icon: git,
