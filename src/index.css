@@ -101,6 +101,12 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.tech-name {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
 .card-shadow {
   box-shadow: rgba(155, 155, 155, 0.3) 0 2px 6px,
     rgba(155, 155, 155, 0.22) 0 0 4px;
