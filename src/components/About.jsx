@@ -37,7 +37,11 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+        I'm a skilled software developer with experience in frameworks such as Ruby on Rails, Node.js, React and Redux.
+        Fun fact: I really enjoy implementing responsive designs.
+        I can help you build a product, feature or website.
+        Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to 
+        <a href="#contact"> contact me.</a>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
