@@ -5,11 +5,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Arenq';
-  src: url('./fonts/arenq.otf');
-}
-
-@font-face {
   font-family: 'Mova';
   src: url('./fonts/mova.otf');
 }
@@ -22,11 +17,6 @@
 @font-face {
   font-family: 'Overcame Bold';
   src: url('./fonts/overcame-bold.woff');
-}
-
-@font-face {
-  font-family: 'Overcame Outline';
-  src: url('./fonts/overcame-outline.woff');
 }
 
 * {
@@ -55,18 +45,14 @@
   font-size: 50px;
 }
 
-/* #projects {
-  font-size: 50px;
-}
-
-#contact {
-  font-size: 50px;
-} */
-
 .hero-heading {
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+#hero-content {
+  margin-top: -90px;
 }
 
 .hash-span {
@@ -97,10 +83,15 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.tech-name {
+.tech-name, .unique-description {
   text-align: center;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Mova', sans-serif;
+}
+
+.unique-description {
+  width: 200px;
+  text-align: left;
 }
 
 .card-shadow {
