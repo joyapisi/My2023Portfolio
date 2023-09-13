@@ -17,17 +17,13 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-
+        <Projects />
         <div className="bg-about bg-cover bg-center bg-no-repeat">
           <About />
-        </div>
-
+        </div> 
         <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
           <Tech />
         </div>
-
-        <Projects />
-
         <div
           className="bg-experience bg-cover bg-center bg-no-repeat 
             rounded-tl-[150px] rounded-br-[150px]">

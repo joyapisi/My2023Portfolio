@@ -5,11 +5,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Arenq';
-  src: url('./fonts/arenq.otf');
-}
-
-@font-face {
   font-family: 'Mova';
   src: url('./fonts/mova.otf');
 }
@@ -22,11 +17,6 @@
 @font-face {
   font-family: 'Overcame Bold';
   src: url('./fonts/overcame-bold.woff');
-}
-
-@font-face {
-  font-family: 'Overcame Outline';
-  src: url('./fonts/overcame-outline.woff');
 }
 
 * {
@@ -51,20 +41,8 @@
   width: 70%;
 }
 
-#about {
-  margin-left: -24px;
-  font-size: 100px;
-}
-
-#projects {
-  margin-left: -2px;
-  font-size: 100px;
-}
-
-#contact {
-  margin-left: -20px;
-  font-size: 95px;
-  letter-spacing: -2px;
+#about, #projects, #contact {
+  font-size: 50px;
 }
 
 .hero-heading {
@@ -99,6 +77,17 @@
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.tech-name, .unique-description {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Mova', sans-serif;
+}
+
+.unique-description {
+  width: 200px;
+  text-align: left;
 }
 
 .card-shadow {
@@ -217,5 +206,69 @@
       0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
+  }
+}
+
+@media screen and (min-width: 325px) {
+  .hii {
+    display: none;
+  }
+
+  .hii-mobile {
+    display: grid;
+    margin-top: 140px;
+    color: #a9a9a9;
+    padding: 5px;
+    font-size: small;
+    gap: 8px;
+  }
+
+  .socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    width: 50%;
+  }
+  
+  .socials img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  #twitter, #email {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    filter: grayscale(100%) invert(100%);
+    background-color: #fff;
+    padding: 0.5px 0;
+    width: 20px;
+  }
+  #github {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #000;
+    padding: 0.5px 0;
+    width: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hii-mobile {
+    display: none;
+  }
+
+  .hii {
+    margin-top: 120px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    color: #a9a9a9;
+  }
+
+  .socials {
+    border-radius: 0.5rem;
+    padding: 5px;
   }
 }

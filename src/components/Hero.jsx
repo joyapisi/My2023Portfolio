@@ -49,12 +49,64 @@ const Hero = () => {
               A Full-Stack. <br className="sm:block hidden" />
               developer.
             </p>
+
+            <div
+            className="hii-mobile">
+           
+            <p className="helping"> Helping businesses create efficient user-centric products</p>
+
+            <div className="socials">
+              <div id="email">
+                <a href="mailto:joyapisi@gmail.com" target="_blank">
+                  <img src="src\assets\icons\mail.png" alt="gmail" />
+                </a>
+              </div>
+              <div id="linkedin">
+                <a href="https://linkedin.com/in/joyapisi" target="_blank">
+                  <img src="src\assets\icons\linkedin.png" alt="linkedin" />
+                </a>
+              </div>
+              <div id="github">
+                <a href="https://github.com/joyapisi" target="_blank">
+                  <img src="src\assets\icons\github.png" alt="github" />
+                </a>
+              </div>
+              <div id="twitter">
+                <a href="https://twitter.com/joyphoebe300" target="_blank">
+                  <img src="src\assets\icons\twitter.png" alt="twitter" />
+                </a>
+              </div>
+            </div>
+          </div>
           </div>
           <div
-            className="w-screen flex flex-col items-start 
-            justify-center sm:-ml-[3rem] xxs:mt-4"></div>
+            className="hii">
+           
+            <p className="helping"> Helping businesses create efficient user-centric products</p>
 
-          <div></div>
+            <div className="socials">
+              <div id="email">
+                <a href="mailto:joyapisi@gmail.com" target="_blank">
+                  <img src="src\assets\icons\mail.png" alt="gmail" />
+                </a>
+              </div>
+              <div id="linkedin">
+                <a href="https://linkedin.com/in/joyapisi" target="_blank">
+                  <img src="src\assets\icons\linkedin.png" alt="linkedin" />
+                </a>
+              </div>
+              <div id="github">
+                <a href="https://github.com/joyapisi" target="_blank">
+                  <img src="src\assets\icons\github.png" alt="github" />
+                </a>
+              </div>
+              <div id="twitter">
+                <a href="https://twitter.com/joyphoebe300" target="_blank">
+                  <img src="src\assets\icons\twitter.png" alt="twitter" />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div

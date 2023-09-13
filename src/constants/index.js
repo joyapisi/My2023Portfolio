@@ -110,7 +110,7 @@ const technologies = [
     icon: postgresql,
   },
   {
-    name: 'git',
+    name: 'Git',
     icon: git,
   },
   {
@@ -180,16 +180,16 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Quote Generator',
+    name: 'Lifestyle Budget App',
     description:
-      'A web page that uses a custom-made API to generate different quotes',
+      'This is a mobile web application where you can manage your budget. A user can add a new group. For each group, they can add a new transaction they made.',
     tags: [
       {
-        name: 'react',
+        name: 'rubyrails',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'postgresql',
         color: 'green-text-gradient',
       },
       {
@@ -198,8 +198,8 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/joyapisi/Quote-Generator',
-    demo: 'https://joyapisi.github.io/Quote-Generator/',
+    repo: 'https://github.com/joyapisi/budget-app',
+    demo: 'https://my-lifestyle-budget-app.onrender.com/',
   },
   {
     id: 'project-3',
@@ -226,7 +226,7 @@ const projects = [
   {
     id: 'project-4',
     name: 'Bookstore App',
-    description: `A single-page application for all fans of books that allows users to add, remove & display books in/from a list`,
+    description: `A single-page application for all fans of books that allows users to add, remove & display books in/from a list.`,
     tags: [
       {
         name: 'react',
