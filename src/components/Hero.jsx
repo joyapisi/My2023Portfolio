@@ -65,22 +65,28 @@ const Hero = () => {
               </div>
               <div id="linkedin">
                 <a href="https://linkedin.com/in/joyapisi" target="_blank">
+                 <img
                  src={linkedin} 
                  alt="linkedin"
+                 />
                 </a>
               </div>
               <div id="github">
                 <a href="https://github.com/joyapisi" target="_blank">
                   {/* <img src="./src/assets/icons/github.png" alt="github" /> */}
+                  <img
                   src={github} 
                   alt="github"
+                  />
                 </a>
               </div>
               <div id="twitter">
                 <a href="https://twitter.com/joyphoebe300" target="_blank">
                   {/* <img src="./src/assets/icons/twitter.png" alt="twitter" /> */}
+                  <img
                   src={twitter} 
                   alt="twitter"
+                  />
                 </a>
               </div>
             </div>
@@ -99,17 +105,26 @@ const Hero = () => {
               </div>
               <div id="linkedin">
                 <a href="https://linkedin.com/in/joyapisi" target="_blank">
-                  <img src="./src/assets/icons/linkedin.png" alt="linkedin" />
+                <img
+                 src={linkedin} 
+                 alt="linkedin"
+                 />
                 </a>
               </div>
               <div id="github">
                 <a href="https://github.com/joyapisi" target="_blank">
-                  <img src="./src/assets/icons/github.png" alt="github" />
+                <img
+                  src={github} 
+                  alt="github"
+                  />
                 </a>
               </div>
               <div id="twitter">
                 <a href="https://twitter.com/joyphoebe300" target="_blank">
-                  <img src="./src/assets/icons/twitter.png" alt="twitter" />
+                <img
+                  src={twitter} 
+                  alt="twitter"
+                  />
                 </a>
               </div>
             </div>
