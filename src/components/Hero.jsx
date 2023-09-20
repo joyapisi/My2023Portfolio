@@ -58,17 +58,17 @@ const Hero = () => {
             <div className="socials">
               <div id="email">
                 <a href="mailto:joyapisi@gmail.com" target="_blank">
-                  <img src="src\assets\icons\mail.png" alt="gmail" />
+                  <img src="src/assets/icons/mail.png" alt="gmail" />
                 </a>
               </div>
               <div id="linkedin">
                 <a href="https://linkedin.com/in/joyapisi" target="_blank">
-                  <img src="src\assets\icons\linkedin.png" alt="linkedin" />
+                  <img src="src/assets/icons/linkedin.png" alt="linkedin" />
                 </a>
               </div>
               <div id="github">
                 <a href="https://github.com/joyapisi" target="_blank">
-                  <img src="src\assets\icons\github.png" alt="github" />
+                  <img src="src/assets/icons/github.png" alt="github" />
                 </a>
               </div>
               <div id="twitter">
