@@ -7,10 +7,10 @@ import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
 // import shaq from './personal/shaq.png';
-import mail from '../assets/icons/mail.png';
-import linkedin from '../assets/icons/linkedin.png';
-import github from '../assets/icons/github.png';
-import twitter from '../assets/icons/twitter.png';
+import mail from './icons/mail.png';
+import linkedin from './icons/linkedin.png';
+import github from './icons/github.png';
+import twitter from './icons/twitter.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
