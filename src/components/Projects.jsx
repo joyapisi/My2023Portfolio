@@ -18,7 +18,7 @@ const ProjectCard = ({
   handleClick,
 }) => {
   return (
-    <motion.div
+    <div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
       className={`relative ${
         active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
@@ -106,7 +106,7 @@ const ProjectCard = ({
           </div>
         </>
       )}
-    </motion.div>
+    </div>
   );
 };
 
@@ -121,7 +121,7 @@ const Projects = () => {
       </motion.div>
 
       <div className="w-full flex">
-        <motion.p
+        <p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
           Below are some practical examples of
@@ -129,10 +129,10 @@ const Projects = () => {
           complex challenges, adapt to a range of technologies, and efficiently
           manage projects.
           You can view live demonstrations of my projects by clicking the live demo button or view the raw code from my github repositories by clicking the github logo at the top-right of each card. 
-        </motion.p>
+        </p>
       </div>
 
-      <motion.div
+      <div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
@@ -149,7 +149,7 @@ const Projects = () => {
             />
           ))}
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 };
