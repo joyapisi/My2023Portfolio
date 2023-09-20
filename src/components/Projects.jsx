@@ -1,112 +1,88 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
 import { github, pineapple, pineappleHover } from '../assets';
 import { projects } from '../constants';
-import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
+import { fadeIn } from '../utils/motion';
 
 const ProjectCard = ({
   id,
   name,
   description,
+  tags,
   image,
-  repo,
   demo,
-  index,
-  active,
-  handleClick,
+  active
 }) => {
   return (
     <div
-      variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-      className={`relative ${
-        active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
-      } flex items-center justify-center min-w-[170px] 
-      h-[420px] cursor-pointer card-shadow`}
-      onClick={() => handleClick(id)}>
-      <div
-        className="absolute top-0 left-0 z-10 bg-jetLight 
-      h-full w-full opacity-[0.5] rounded-[24px]"></div>
+      className= {`relative flex flex-col w-auto ${
+        active === id ? 'lg:flex-row' : 'lg:flex-row'
+      } card-shadow`} style={{ marginTop: '30px', marginBottom:'10px', borderRadius: '2rem'}}
+    >
+      <div className="lg:w-1/2 overflow-hidden">
+        <img
+          src={image}
+          alt={name}
+          style={{ height: '400px' }} 
+          className="w-full h-auto object-cover rounded-[2px]"
+        />
+      </div>
 
-      <img
-        src={image}
-        alt={name}
-        className="absolute w-full h-full object-cover rounded-[24px]"
-      />
+      <div className="lg:w-1/2 relative" >
+        <div className="lg:h-full overflow-y-auto">
+            <div className="p-4 bg-[rgba(122,122,122,0.5)] rounded-b-[2rem]" style={{ height: '100%' ,  paddingLeft: '10px', justifyContent: 'center',  alignItems: 'flex-start', display: 'flex', flexDirection: 'column', textAlign: 'left' }} >
+              <div className="flex justify-end mb-3">
+                  <img
+                    src={github}
+                    alt="source code"
+                    className="w-6 h-6 object-contain"
+                    style={{ alignSelf: 'flex-end' }}
+                  />
+                </div>   
 
-      {active !== id ? (
-        <div className="flex items-center justify-start pr-[4.5rem]">
-          <h3
-            className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
-        whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
-        absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
-        leading-none z-20">
-            {name}
-          </h3>
-        </div>
-      ) : (
-        <>
-          <div
-            className="absolute bottom-0 p-8 justify-start w-full 
-            flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20">
-            <div className="absolute inset-0 flex justify-end m-3">
-              <div
-                onClick={() => window.open(repo, '_blank')}
-                className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
-                  flex justify-center items-center cursor-pointer
-                  sm:opacity-[0.9] opacity-[0.8]">
+              <h2 className="font-bold text-timberWolf text-2xl mb-2">
+                {name}
+              </h2>
+              <p className="text-silver text-sm max-w-3xl leading-[24px]">
+                {description}
+              </p>
+              <p className="blue-text-gradient">
+  {tags.map((tag, index) => (
+    <span
+      key={index}
+      className={`text-${tag.color} pr-2`}
+    >
+      {tag.name} |
+    </span>
+  ))}
+</p>
+
+              <button
+                className="live-demo flex items-center mt-4 text-timberWolf font-bold gap-1 hover:bg-battleGray hover:text-eerieBlack transition duration-200 ease-in-out"
+                onClick={() => window.open(demo, '_blank')}
+                onMouseOver={() => {
+                  document
+                    .querySelector('.btn-icon')
+                    .setAttribute('src', pineappleHover);
+                }}
+                onMouseOut={() => {
+                  document
+                    .querySelector('.btn-icon')
+                    .setAttribute('src', pineapple);
+                }}
+              >
                 <img
-                  src={github}
-                  alt="source code"
-                  className="w-4/5 h-4/5 object-contain"
+                  src={pineapple}
+                  alt="pineapple"
+                  className="btn-icon w-6 h-6 object-contain"
                 />
-              </div>
+                LIVE DEMO
+              </button>
             </div>
-
-            <h2
-              className="font-bold sm:text-[32px] text-[24px] 
-              text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem]">
-              {name}
-            </h2>
-            <p
-              className="text-silver sm:text-[14px] text-[12px] 
-              max-w-3xl sm:leading-[24px] leading-[18px]
-              font-poppins tracking-[1px]">
-              {description}
-            </p>
-            <button
-              className="live-demo flex justify-between 
-              sm:text-[16px] text-[14px] text-timberWolf 
-              font-bold font-beckman items-center py-5 pl-2 pr-3 
-              whitespace-nowrap gap-1 sm:w-[138px] sm:h-[50px] 
-              w-[125px] h-[46px] rounded-[10px] glassmorphism 
-              sm:mt-[22px] mt-[16px] hover:bg-battleGray 
-              hover:text-eerieBlack transition duration-[0.2s] 
-              ease-in-out"
-              onClick={() => window.open(demo, '_blank')}
-              onMouseOver={() => {
-                document
-                  .querySelector('.btn-icon')
-                  .setAttribute('src', pineappleHover);
-              }}
-              onMouseOut={() => {
-                document
-                  .querySelector('.btn-icon')
-                  .setAttribute('src', pineapple);
-              }}>
-              <img
-                src={pineapple}
-                alt="pineapple"
-                className="btn-icon sm:w-[34px] sm:h-[34px] 
-                  w-[30px] h-[30px] object-contain"
-              />
-              LIVE DEMO
-            </button>
-          </div>
-        </>
-      )}
-    </div>
+            </div>
+        </div>   
+      </div>
   );
 };
 
@@ -114,41 +90,34 @@ const Projects = () => {
   const [active, setActive] = useState('project-2');
 
   return (
-    <div className="-mt-[6rem]">
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Case Studies</p>
+    <div className="-mt-6">
+        <p className={`${styles.sectionSubText}`}>Case Studies</p>
         <h2 className={`${styles.sectionHeadTextLight}`}>Projects.</h2>
-      </motion.div>
-
+   
       <div className="w-full flex">
         <p
           variants={fadeIn('', '', 0.1, 1)}
-          className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          Below are some practical examples of
-          some of my work. These projects showcase my ability to tackle
-          complex challenges, adapt to a range of technologies, and efficiently
-          manage projects.
-          You can view live demonstrations of my projects by clicking the live demo button or view the raw code from my github repositories by clicking the github logo at the top-right of each card. 
+          className="mt-4 text-taupe text-sm max-w-3xl leading-[24px]"
+        >
+          Below are some practical examples of my work. These projects
+          showcase my ability to tackle complex challenges, adapt to a range of
+          technologies, and efficiently manage projects. You can view live
+          demonstrations of my projects by clicking the live demo button or view
+          the raw code from my GitHub repositories by clicking the GitHub logo
+          at the top-right of each card.
         </p>
       </div>
-
+    
       <div
-        variants={staggerContainer}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}>
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={project.id}
-              index={index}
-              {...project}
-              active={active}
-              handleClick={setActive}
-            />
-          ))}
-        </div>
+        className={`${styles.innerWidth} mx-auto flex flex-col space-y-6 lg:space-y-0 lg:space-x-6` }
+      >
+        {projects.map((project, index) => (
+          <ProjectCard
+            key={project.id}
+            index={index}
+            {...project}
+          />
+        ))}
       </div>
     </div>
   );

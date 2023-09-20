@@ -46,7 +46,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              A Full-Stack. <br className="sm:block hidden" />
+              A Software <br className="sm:block hidden" />
               developer.
             </p>
 
@@ -99,7 +99,10 @@ const Hero = () => {
             <div className="socials">
               <div className="email">
                 <a href="mailto:joyapisi@gmail.com" target="_blank">
-                  <img src="./src/assets/icons/mail.png" alt="gmail" />
+                <img
+                 src={mail} 
+                 alt="mail"
+                 />
                 </a>
               </div>
               <div className="linkedin">

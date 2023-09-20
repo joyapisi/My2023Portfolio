@@ -6,7 +6,6 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-// import shaq from './personal/shaq.png';
 import mail from './icons/mail.png';
 import linkedin from './icons/linkedin.png';
 import github from './icons/github.png';
@@ -16,7 +15,6 @@ import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
-// import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';

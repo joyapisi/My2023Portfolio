@@ -64,9 +64,6 @@ const Contact = () => {
       className="-mt-[8rem] xl:flex-row flex-col-reverse 
       flex gap-10 overflow-hidden">
       <div className="flex-[0.75] bg-jet p-8 rounded-2xl">
-        {/* motion.div */}
-        {/* // variants={slideIn('left', 'tween', 0.2, 1)} */}
-        {/* className="flex-[0.75] bg-jet p-8 rounded-2xl"> */}
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
 
@@ -146,7 +143,6 @@ const Contact = () => {
           </button>
         </form>
         </div>
-      {/* </motion.div> */}
     </div>
   );
 };

@@ -159,7 +159,7 @@ const projects = [
   {
     id: 'project-1',
     name: 'Space Travellers\' Hub',
-    description: 'A web application for a company that provides commercial and scientific space travel services. Users can book rockets and join selected space missions.',
+    description: 'A web application for a company that provides commercial and scientific space travel services. Users can book rockets and join selected space missions or cancel reservations.',
     tags: [
       {
         name: 'react',
@@ -182,7 +182,7 @@ const projects = [
     id: 'project-2',
     name: 'Lifestyle Budget App',
     description:
-      'This is a mobile web application where you can manage your budget. A user can add a new group. For each group, they can add a new transaction they made.',
+      'This is a mobile web application that allows users to manage their budgets. One can add a new group i.e travel or food. For each group, they can add a new transaction of any item they have purchased.',
     tags: [
       {
         name: 'rubyrails',
@@ -204,7 +204,7 @@ const projects = [
   {
     id: 'project-3',
     name: 'Math Magicians',
-    description: 'A Single Page App(SPA) for all fans of mathematics that allows users to make simple calculations and read a random math-related quotes.',
+    description: 'This app is for all fans of mathematics that allows users to make calculations and read random math-related quotes. The app is a Single Page App(SPA) and uses an API to generate quotes',
     tags: [
       {
         name: 'react',
@@ -226,7 +226,7 @@ const projects = [
   {
     id: 'project-4',
     name: 'Bookstore App',
-    description: `A single-page application for all fans of books that allows users to add, remove & display books in/from a list.`,
+    description: `A single-page application for all fans of books. It allows users to add, remove & display books in/from a list on the home page. Users can also track their reading  progress on a certain book.`,
     tags: [
       {
         name: 'react',
@@ -249,7 +249,7 @@ const projects = [
     id: 'project-5',
     name: 'Artwork App',
     description:
-      'This is a mobile app that can be used to find details of various artwork displayed on the home page. All data is fetched from the Art Institute of Chicago API.',
+      'This is a mobile app that can be used to learn more about various Artwork. Users can view specific details of an artwork by clicking on its displayed name. All data is fetched from the Art Institute of Chicago API.',
     tags: [
       {
         name: 'react',
