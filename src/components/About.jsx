@@ -7,7 +7,7 @@ import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
-    <motion.div
+    <div
       variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
       className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card">
       <div
@@ -22,7 +22,7 @@ const ServiceCard = ({ index, title, icon }) => {
           {title}
         </h3>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
@@ -34,7 +34,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p
+      <p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
         I'm a skilled software developer with experience in frameworks such as Ruby on Rails, Node.js, React and Redux.
@@ -42,7 +42,7 @@ const About = () => {
         I can help you build a product, feature or website.
         Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to 
         <a href="#contact"> contact me.</a>
-      </motion.p>
+      </p>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
