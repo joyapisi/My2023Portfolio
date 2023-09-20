@@ -235,7 +235,7 @@
     height: 20px;
   }
   
-  #twitter, #email {
+  .twitter, .email {
     display: flex;
     justify-content: center;
     border-radius: 50%;
@@ -244,7 +244,8 @@
     padding: 0.5px 0;
     width: 20px;
   }
-  #github {
+  
+  .github {
     display: flex;
     justify-content: center;
     border-radius: 50%;

@@ -56,7 +56,7 @@ const Hero = () => {
             <p className="helping"> Helping businesses create efficient user-centric products</p>
 
             <div className="socials">
-              <div id="email">
+              <div className="email">
                 <a href="mailto:joyapisi@gmail.com" target="_blank">
                   <img
                   src={mail} 
@@ -64,7 +64,7 @@ const Hero = () => {
                   />
                 </a>
               </div>
-              <div id="linkedin">
+              <div className="linkedin">
                 <a href="https://linkedin.com/in/joyapisi" target="_blank">
                  <img
                  src={linkedin} 
@@ -72,7 +72,7 @@ const Hero = () => {
                  />
                 </a>
               </div>
-              <div id="github">
+              <div className="github">
                 <a href="https://github.com/joyapisi" target="_blank">
                   <img
                   src={github} 
@@ -80,7 +80,7 @@ const Hero = () => {
                   />
                 </a>
               </div>
-              <div id="twitter">
+              <div className="twitter">
                 <a href="https://twitter.com/joyphoebe300" target="_blank">
                   <img
                   src={twitter} 
@@ -97,12 +97,12 @@ const Hero = () => {
             <p className="helping"> Helping businesses create efficient user-centric products</p>
 
             <div className="socials">
-              <div id="email">
+              <div className="email">
                 <a href="mailto:joyapisi@gmail.com" target="_blank">
                   <img src="./src/assets/icons/mail.png" alt="gmail" />
                 </a>
               </div>
-              <div id="linkedin">
+              <div className="linkedin">
                 <a href="https://linkedin.com/in/joyapisi" target="_blank">
                 <img
                  src={linkedin} 
@@ -110,7 +110,7 @@ const Hero = () => {
                  />
                 </a>
               </div>
-              <div id="github">
+              <div className="github">
                 <a href="https://github.com/joyapisi" target="_blank">
                 <img
                   src={github} 
@@ -118,7 +118,7 @@ const Hero = () => {
                   />
                 </a>
               </div>
-              <div id="twitter">
+              <div className="twitter">
                 <a href="https://twitter.com/joyphoebe300" target="_blank">
                 <img
                   src={twitter} 
