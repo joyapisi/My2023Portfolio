@@ -58,9 +58,10 @@ const Hero = () => {
             <div className="socials">
               <div id="email">
                 <a href="mailto:joyapisi@gmail.com" target="_blank">
-                  {/* <img src="./src/assets/icons/mail.png" alt="gmail" /> */}
+                  <img
                   src={mail} 
                   alt="linkedin"
+                  />
                 </a>
               </div>
               <div id="linkedin">
@@ -73,7 +74,6 @@ const Hero = () => {
               </div>
               <div id="github">
                 <a href="https://github.com/joyapisi" target="_blank">
-                  {/* <img src="./src/assets/icons/github.png" alt="github" /> */}
                   <img
                   src={github} 
                   alt="github"
@@ -82,7 +82,6 @@ const Hero = () => {
               </div>
               <div id="twitter">
                 <a href="https://twitter.com/joyphoebe300" target="_blank">
-                  {/* <img src="./src/assets/icons/twitter.png" alt="twitter" /> */}
                   <img
                   src={twitter} 
                   alt="twitter"
