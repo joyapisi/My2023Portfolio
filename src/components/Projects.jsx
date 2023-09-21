@@ -16,7 +16,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div
-      className= {`relative flex flex-col w-auto ${
+      className= {`relative flex flex-col w-auto  ${
         active === id ? 'lg:flex-row' : 'lg:flex-row'
       } card-shadow`} style={{ marginTop: '30px', marginBottom:'10px', borderRadius: '2rem'}}
     >
@@ -48,15 +48,15 @@ const ProjectCard = ({
                 {description}
               </p>
               <p className="blue-text-gradient">
-  {tags.map((tag, index) => (
-    <span
-      key={index}
-      className={`text-${tag.color} pr-2`}
-    >
-      {tag.name} |
-    </span>
-  ))}
-</p>
+                {tags.map((tag, index) => (
+                  <span
+                    key={index}
+                    className={`text-${tag.color} pr-2`}
+                  >
+                    {tag.name} |
+                  </span>
+                ))}
+              </p>
 
               <button
                 className="live-demo flex items-center mt-4 text-timberWolf font-bold gap-1 hover:bg-battleGray hover:text-eerieBlack transition duration-200 ease-in-out"

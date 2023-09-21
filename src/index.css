@@ -171,6 +171,22 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* .project-card .relative { 
+  margin-top: '30px'; 
+  margin-bottom:'10px';
+  border-radius: '2rem';
+}
+
+.p-4 {
+   height: '100%';
+   padding-left: '10px';
+   justify-content: 'center';
+   align-items: 'flex-start';
+   display: 'flex';
+   flex-direction: 'column';
+   text-align: 'left' 
+} */
+
 /* Responsive classes */
 @media (min-width: 640px) {
   .submit-contact {

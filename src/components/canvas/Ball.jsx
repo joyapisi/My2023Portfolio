@@ -7,7 +7,6 @@ import {
   Preload,
   useTexture,
 } from '@react-three/drei';
-import Loader from '../Loader';
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
@@ -38,9 +37,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas frameloop="always" gl={{ preserveDrawingBuffer: true }}>
-      <Suspense fallback={<Loader />}>
         <Ball imgUrl={icon} />
-      </Suspense>
 
       <Preload all />
     </Canvas>
