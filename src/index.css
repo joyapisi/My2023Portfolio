@@ -7,16 +7,19 @@
 @font-face {
   font-family: 'Mova';
   src: url('./fonts/mova.otf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Beckman';
   src: url('./fonts/beckman.otf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Overcame Bold';
   src: url('./fonts/overcame-bold.woff');
+  font-display: swap;
 }
 
 * {
