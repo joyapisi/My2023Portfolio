@@ -134,11 +134,11 @@ const Hero = () => {
         </div>
 
         <div
-          className="absolute xs:bottom-10 bottom-32 w-full 
+          className="absolute xs:bottom-10 bottom-36 w-full 
           flex justify-center items-center">
           <a href="#about">
             <div
-              className="w-[35px] h-[64px] rounded-3xl border-4 
+              className="w-[30px] h-[54px] rounded-3xl border-4 
             border-french border-dim flex
             justify-center items-start p-2">
               <motion.div
