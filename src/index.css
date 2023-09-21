@@ -148,6 +148,43 @@
 	}
 }
 
+.flex {
+  display: flex;
+}
+
+.submit-contact {
+  justify-content: center;
+  gap: 0.75rem;
+  color: #D9D6C7;
+  font-weight: bold;
+  font-family: 'Beckman', sans-serif;
+  align-items: center;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  white-space: nowrap;
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #1F2430;
+  background-color: #8b8b8b;
+  color: #1D1D1F;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Responsive classes */
+@media (min-width: 640px) {
+  .submit-contact {
+    gap: 1rem;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+  }
+}
+
+
+
 @media screen and (min-width: 325px) {
   .hii {
     display: none;
