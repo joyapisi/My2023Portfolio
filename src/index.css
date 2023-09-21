@@ -121,8 +121,28 @@
 }
 
 .blue-text-gradient {
-  color: rgb(150, 150, 213);
+  color: rgb(171, 199, 255);
   font-size: medium;
+}
+
+.helping {
+  animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+@keyframes slide-in-anim {
+	5% {
+		opacity: 0;
+	}
+	45% {
+		transform: translateX(-55%);
+	}
+	60% {
+		transform: translateX(-57%);
+	}
+	85% {
+		opacity: 1;
+		transform: translateX(-55%);
+	}
 }
 
 @media screen and (min-width: 325px) {
