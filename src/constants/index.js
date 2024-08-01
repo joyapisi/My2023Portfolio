@@ -4,19 +4,19 @@ import {
   ux,
   // prototyping,
   javascript,
-  // typescript,
+  typescript,
   html,
   css,
   reactjs,
   redux,
-  // tailwind,
+  tailwind,
   nodejs,
   git,
   figma,
-  // docker,
+  docker,
   postgresql,
   rubyrails,
-  // graphql,
+  graphql,
   komikult,
   leaderboard,
   math,
@@ -77,10 +77,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: 'TypeScript',
-  //   icon: typescript,
-  // },
+  {
+    name: 'TypeScript',
+    icon: typescript,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -89,10 +89,10 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  // {
-  //   name: 'Tailwind CSS',
-  //   icon: tailwind,
-  // },
+  {
+    name: 'Tailwind CSS',
+    icon: tailwind,
+  },
   {
     name: "Node JS",
     icon: nodejs,
@@ -101,10 +101,10 @@ const technologies = [
     name: "Rails",
     icon: rubyrails,
   },
-  // {
-  //   name: 'graphql',
-  //   icon: graphql,
-  // },
+  {
+    name: 'graphql',
+    icon: graphql,
+  },
   {
     name: "postgresql",
     icon: postgresql,
@@ -117,10 +117,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  // {
-  //   name: 'docker',
-  //   icon: docker,
-  // },
+  {
+    name: 'docker',
+    icon: docker,
+  },
 ];
 
 const experiences = [
