@@ -156,6 +156,33 @@ const experiences = [
 
 const projects = [
   {
+    id: "project-5",
+    name: "Mpesa Business Mini App",
+    description:
+      "A mini-app known as the Merchant App. It allows eficient onboarding of potential clients (business owners) to the Mpesa Business Platform by sales men. Available on App store.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ANT design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML/CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nyeusi,
+    repo: "https://github.com/joyapisi/Policy/",
+    demo: "https://www.safaricom.co.ke/main-mpesa/for-your-business",
+  },
+  {
     id: "project-2",
     name: "Lifestyle Budget App",
     description:
@@ -245,33 +272,6 @@ const projects = [
     image: math,
     repo: "https://github.com/joyapisi/Math-Magicians",
     demo: "https://joys-math-magicians.netlify.app/",
-  },
-  {
-    id: "project-5",
-    name: "Artwork App",
-    description:
-      "This is a mobile app that can be used to learn more about various Artwork. Users can view specific details of an artwork by clicking on its displayed name. All data is fetched from the Art Institute of Chicago API.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-    ],
-    image: nyeusi,
-    repo: "https://github.com/joyapisi/artwork-app",
-    demo: "https://joys-artwork-app.netlify.app/",
   },
 ];
 
