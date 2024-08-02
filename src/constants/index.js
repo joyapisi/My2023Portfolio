@@ -156,29 +156,6 @@ const experiences = [
 
 const projects = [
   {
-    id: "project-1",
-    name: "Space Travellers' Hub",
-    description:
-      "A web application for a company that provides commercial and scientific space travel services. Users can book rockets and join selected space missions or cancel reservations.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: space,
-    repo: "https://github.com/joyapisi/space-traveler-hub",
-    demo: "https://my-space-travellers-hub.netlify.app/",
-  },
-  {
     id: "project-2",
     name: "Lifestyle Budget App",
     description:
@@ -202,6 +179,51 @@ const projects = [
     demo: "https://my-lifestyle-budget-app.onrender.com/",
   },
   {
+    id: "project-4",
+    name: "Bookstore App",
+    description: `A single-page application for all fans of books. It allows users to add, remove & display books in/from a list on the home page. Users can also track their reading  progress on a certain book.`,
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: movie,
+    repo: "https://github.com/joyapisi/bookstore-app",
+    demo: "https://joys-bookstore-app.netlify.app/",
+  },
+  {
+    id: "project-1",
+    name: "Space Travellers' Hub",
+    description:
+      "A web application for a company that provides commercial and scientific space travel services. Users can book rockets and join selected space missions or cancel reservations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: space,
+    repo: "https://github.com/joyapisi/space-traveler-hub",
+    demo: "https://my-space-travellers-hub.netlify.app/",
+  },
+  {
     id: "project-3",
     name: "Math Magicians",
     description:
@@ -223,28 +245,6 @@ const projects = [
     image: math,
     repo: "https://github.com/joyapisi/Math-Magicians",
     demo: "https://joys-math-magicians.netlify.app/",
-  },
-  {
-    id: "project-4",
-    name: "Bookstore App",
-    description: `A single-page application for all fans of books. It allows users to add, remove & display books in/from a list on the home page. Users can also track their reading  progress on a certain book.`,
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: movie,
-    repo: "https://github.com/joyapisi/bookstore-app",
-    demo: "https://joys-bookstore-app.netlify.app/",
   },
   {
     id: "project-5",
