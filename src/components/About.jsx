@@ -5,8 +5,9 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const ServiceCard = ({ index, title, icon }) => {
+const ServiceCard = ({ index, title, icon, link }) => {
   return (
+    <a href={link} className="block">
     <div
       variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
       className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card">
@@ -23,6 +24,7 @@ const ServiceCard = ({ index, title, icon }) => {
         </h3>
       </div>
     </div>
+    </a>
   );
 };
 
@@ -37,7 +39,7 @@ const About = () => {
       <p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in frameworks such as Ruby on Rails, Node.js, React and Redux.
+        I'm a skilled software developer & UI/UX Designer with experience in frameworks such as Ruby on Rails, Node.js, React and Redux, & Figma.
         Fun fact: I really enjoy implementing responsive designs.
         I can help you build a product, feature or website.
         Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to 

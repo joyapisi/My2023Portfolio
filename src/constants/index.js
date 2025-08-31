@@ -2,7 +2,7 @@ import {
   frontend,
   backend,
   ux,
-  // prototyping,
+  prototyping,
   javascript,
   typescript,
   html,
@@ -22,7 +22,6 @@ import {
   math,
   movie,
   nyeusi,
-  // space,
   coverhunt,
   dcc,
   kelhel,
@@ -57,11 +56,13 @@ const services = [
   {
     title: "UI/UX Design",
     icon: ux,
+    link: "https://www.figma.com/proto/KapY7T5JpxAU19LWks563G/Work-Voyager-App?node-id=7-985&p=f&t=Hl3m5Tqtpe4opT6p-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A985",
   },
-  // {
-  //   title: 'Software Prototyping',
-  //   icon: prototyping,
-  // },
+  {
+    title: 'Software Prototyping',
+    icon: prototyping,
+    link: "https://www.figma.com/proto/y7G7g96E2GSnL4WuwC47QD/Option-B--Take-Home-Assignment-?node-id=1-3&p=f&t=IeUDD2hSp3TYH866-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3",
+  },
 ];
 
 const technologies = [
@@ -125,14 +126,14 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer & UI/UX Designer",
+    title: "UI/UX Designer & Trainer",
     company_name: "Africa Digital Media Institute(ADMI)",
     icon: dcc,
     iconBg: "#333333",
     date: "December 2023 – Present",
   },
   {
-    title: "Graduate Full-Stack Developer",
+    title: "Full-Stack Developer(Grad Assistant)",
     company_name: "Safaricom",
     icon: coverhunt,
     iconBg: "#333333",
@@ -182,6 +183,29 @@ const projects = [
     repo: "https://github.com/joyapisi/Policy/",
     demo: "https://www.safaricom.co.ke/main-mpesa/for-your-business",
   },
+    {
+    id: "project-1",
+    name: "Sporty Bet UI/UX Design",
+    description:
+      "A UI/UX design for a betting company called Sporty Bet. The design is done using Figma, contains animated carousels, and is a responsive design.",
+    tags: [
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Figma Components",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Photoshop",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: space,
+    prototype: "https://www.figma.com/proto/tvOKKfWtz5aqJHOOFLSlWW/Take--Home-Test---Sporty-Bet-UI-Clone?node-id=5-141&starting-point-node-id=32%3A247&t=grJbr9WHN719yHep-1",
+    demo: "https://www.figma.com/proto/tvOKKfWtz5aqJHOOFLSlWW/Take--Home-Test---Sporty-Bet-UI-Clone?node-id=5-141&starting-point-node-id=32%3A247&t=grJbr9WHN719yHep-1",
+  },
   {
     id: "project-2",
     name: "Lifestyle Budget App",
@@ -226,29 +250,6 @@ const projects = [
     image: movie,
     repo: "https://github.com/joyapisi/bookstore-app",
     demo: "https://joys-bookstore-app.netlify.app/",
-  },
-  {
-    id: "project-1",
-    name: "Space Travellers' Hub",
-    description:
-      "A web application for a company that provides commercial and scientific space travel services. Users can book rockets and join selected space missions or cancel reservations.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: space,
-    repo: "https://github.com/joyapisi/space-traveler-hub",
-    demo: "https://my-space-travellers-hub.netlify.app/",
   },
   {
     id: "project-3",
