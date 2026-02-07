@@ -102,7 +102,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'https://drive.google.com/file/d/16rR0GPXK416zxB4MnpyoHvpvScIdlmGH/view?usp=sharing',
+                  'https://www.figma.com/proto/JsWMS1Q6Rzus5FqL7DkjDl/Joy.Phoebe-Resume--UI-UX---Frontend-?node-id=1-20&t=SlSGUIZ0k0LLz3Pe-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
                   '_blank'
                 )
               }
