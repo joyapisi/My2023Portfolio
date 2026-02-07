@@ -100,7 +100,8 @@ const Projects = () => {
           className="mt-4 text-taupe text-sm max-w-3xl leading-[24px]"
         >
           Below are some practical examples of my work. These projects
-          showcase my ability to tackle complex challenges, adapt to a range of
+          showcase my ability to handle UX case studies, UI Designs and develop software Frontends. 
+          It also shows that I can tackle complex challenges, adapt to a range of
           technologies, and efficiently manage projects. You can view live
           demonstrations of my projects by clicking the live demo button or view
           the raw code from my GitHub repositories by clicking the GitHub logo

@@ -125,6 +125,13 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+    title: "UX Researcher & Frontend Developer",
+    company_name: "Buy My Space",
+    icon: microverse,
+    iconBg: "#333333",
+    date: "September 2025 - Present",
+  },
   {
     title: "UI/UX Designer & Trainer",
     company_name: "Africa Digital Media Institute(ADMI)",
@@ -145,22 +152,38 @@ const experiences = [
     icon: microverse,
     iconBg: "#333333",
     date: "August 2020 - February 2023",
-  },
-  {
-    title: "IT Assistant",
-    company_name: "Pangolin Publishers ",
-    icon: kelhel,
-    iconBg: "#333333",
-    date: "January 2018 - August 2020",
-  },
+  }
 ];
 
 const projects = [
+    {
+    id: "project-3",
+    name: "Buy My Space - Interior Design App",
+    description:
+      "A UX research and software Development on Buy My Space catalog to improve the User experience in their catalog interface. The project involved conducting user research, creating wireframes and prototypes, and implementing the frontend of the catalog using React.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: math,
+    repo: "https://github.com/joyapisi/business-catalog",
+    demo: "https://www.figma.com/proto/3PHodAk6huCuExYtftcgtc/BMS-UI-UX-CASE-STUDY?node-id=1-261&p=f&t=2Yo9EqvWvB9bwUIA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+  },
   {
     id: "project-5",
-    name: "Mpesa Business Mini App",
+    name: "Safaricom Business Mini App",
     description:
-      "A mini-app known as the Merchant App. It allows eficient onboarding of potential clients (business owners) to the Mpesa Business Platform by sales men. Available on App store.",
+      "A mini-app known as the Merchant App. It allows eficient onboarding of potential clients (business owners) to the Safaricom Business Platform by sales men. Available on App store.",
     tags: [
       {
         name: "javascript",
@@ -185,9 +208,9 @@ const projects = [
   },
     {
     id: "project-1",
-    name: "Sporty Bet UI/UX Design",
+    name: "Sporty Bet UI Design",
     description:
-      "A UI/UX design for a betting company called Sporty Bet. The design is done using Figma, contains animated carousels, and is a responsive design.",
+      "A UI feature re-design for a betting company called Sporty Bet. The design is done using Figma, contains animated carousels, better information architecture, and is a responsive design.",
     tags: [
       {
         name: "Figma",
@@ -250,30 +273,7 @@ const projects = [
     image: movie,
     repo: "https://github.com/joyapisi/bookstore-app",
     demo: "https://joys-bookstore-app.netlify.app/",
-  },
-  {
-    id: "project-3",
-    name: "Math Magicians",
-    description:
-      "This app is for all fans of mathematics that allows users to make calculations and read random math-related quotes. The app is a Single Page App(SPA) and uses an API to generate quotes",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: math,
-    repo: "https://github.com/joyapisi/Math-Magicians",
-    demo: "https://joys-math-magicians.netlify.app/",
-  },
+  }
 ];
 
 export { services, technologies, experiences, projects };

@@ -41,7 +41,7 @@ const About = () => {
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
         I'm a skilled software developer & UI/UX Designer with experience in frameworks such as Ruby on Rails, Node.js, React and Redux, & Figma.
         Fun fact: I really enjoy implementing responsive designs.
-        I can help you build a product, feature or website.
+        I can help you build a user-centric product, feature or website.
         Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to 
         <a href="#contact"> contact me.</a>
       </p>
